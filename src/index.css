@@ -31,7 +31,10 @@
 .bgc_blue{
   background-color: #001948;
 }
-nav a:hover{
+.bgc_blue_sky{
+  background-color: #6586C7;
+}
+.navbar a:hover{
   color: #DFA408;
 }
 @keyframes slide1 {
@@ -64,4 +67,37 @@ nav a:hover{
   object-fit: cover;
   flex-shrink: 0;
 }
+.slide2_container {
+  display: flex;
+  overflow: hidden;
+  width: 73vw;
+  gap: 2rem;
+}
 
+.slide2_content {
+  flex: 0 0 calc((73vw - 4rem) / 3);
+  max-width: 400px;
+  height: 400px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  scroll-snap-align: start;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.slide2_profile {
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.slide2_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 export default function Navbar(){
-    return <nav className="flex flex-row w-full text-white bgc_blue justify-between pt-3 pb-3 pl-20 gap-12">
+    return <nav className="flex flex-row w-full text-white bgc_blue justify-between pt-3 pb-3 pl-20 gap-12 navbar">
         <a href="">
         <img src="https://hei.school/wp-content/uploads/2022/09/cropped-Logo-e1662790239183.png" alt=""
-        className='w-22 h-20 pl-9' />
+        className='w-40 h-20 pl-10' />
         </a>
   <ul className="flex flex-row w-full justify-center gap-9 font-semibold text-lg ml-20 pl-12 items-center">
     <li><a href="">ACCUEIL</a></li>
