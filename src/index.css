@@ -19,6 +19,9 @@
   width: 100%;
   height: 100%;
 }
+.border_blue{
+  border: 10 solid #001948;
+}
 .color_yellow{
   color : #DFA408
 }
@@ -30,6 +33,9 @@
 }
 .bgc_blue{
   background-color: #001948;
+}
+.color_white{
+  color: rgb(194, 190, 190);
 }
 .bgc_blue_sky{
   background-color: #6586C7;
